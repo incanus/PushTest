@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     }
 
     func pushSecondMap() {
-        navigationController!.pushViewController(UIViewController(), animated: true)
+        navigationController!.pushViewController(ViewController(), animated: true)
     }
 
 }
